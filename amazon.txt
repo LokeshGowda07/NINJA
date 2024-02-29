@@ -2,3 +2,4 @@ Signup
 Login
 Homepage
 Profile
+chats
