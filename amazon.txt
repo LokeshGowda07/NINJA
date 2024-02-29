@@ -3,4 +3,3 @@ Login
 Homepage
 Profile
 chats
-logout
