@@ -1,0 +1,21 @@
+#!/bin/bash
+if command -v git
+then 
+echo "Installed"
+else
+echo "Not installed"
+sudo yum install git -y
+echo "Now installed"
+git --version
+fi
+echo "----------------------------------------------------"
+read name
+if command -v $name
+then 
+echo "Installed"
+else
+echo "Not installed"
+sudo yum install $name -y
+echo "Now installed"
+$name --version
+fi
