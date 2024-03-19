@@ -1,0 +1,25 @@
+echo"------STATIC-----"
+#!/bin/bash
+a=10
+b=10
+if [ $a -ge $b ]
+then
+echo "a is greater than b"
+elif [$a -ls $b ]
+then
+echo "a is less than b"
+else
+echo "a is equal to b"
+
+echo "--------dynamic--------"
+#!/bin/bash
+read a
+read b
+if [ $a -ge $b ]
+then
+echo "a is greater than b"
+elif [$a -ls $b ]
+then
+echo "a is less than b"
+else
+echo "a is equal to b"
