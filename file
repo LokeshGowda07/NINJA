@@ -1,0 +1,20 @@
+#!/bin/bash
+if [ -f ./sample.txt ]
+then 
+echo "File exits"
+else
+echo "File not found"
+touch sample.txt
+echo "File created"
+fi
+echo "----------------------------------------------------"
+read file
+if [ -f ./$file ]
+then
+echo "File exist"
+else
+echo "File not found"
+touch $file
+echo "$file created"
+fi
+
