@@ -1,0 +1,19 @@
+#!/bin/bash
+if [ -d ./devops ]
+then 
+echo "directory exits"
+else
+echo "directory not found"
+mkdir devops
+echo "directory created"
+fi
+echo "----------------------------------------------------"
+read dir
+if [ -d ./$dir ]
+then 
+echo "directory exits"
+else
+echo "directory not found"
+mkdir $dir
+echo " $dir directory created"
+fi
