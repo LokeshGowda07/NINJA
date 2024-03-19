@@ -1,0 +1,30 @@
+echo"----------STATIC----------------"
+#!/bin/bash
+static(){
+a=10
+b=20
+c="$((a+b))"
+d="$((a-b))"
+e="$((a*b))"
+f="$((a/b))"
+echo "$c"
+echo "$d"
+echo "$e"
+echo "$f"
+}
+static
+echo"----------DYNAMIC----------------"
+#!/bin/bash
+dynamic(){
+read a
+read b
+c="$((a+b))"
+d="$((a-b))"
+e="$((a*b))"
+f="$((a/b))"
+echo "$c"
+echo "$d"
+echo "$e"
+echo "$f"
+}
+dynamic
