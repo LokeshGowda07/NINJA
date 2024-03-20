@@ -1,0 +1,6 @@
+!/bin/bash
+for i in ./sample/*
+do 
+echo $i
+mv $i ./demo
+done

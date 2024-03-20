@@ -1,0 +1,5 @@
+#!/bin/bash
+for i in /sample/*.html
+do
+cp $i demo
+done

@@ -1,0 +1,5 @@
+#!/bin/bash
+for i in ./sample/*
+do 
+zip ninja.zip $i
+done
