@@ -1,0 +1,17 @@
+#!/bin/bash
+for i in {1..10}
+do
+echo $i
+done
+echo "--------Using threads---------"
+for j in {1..10}
+do 
+echo $j
+sleep 2
+done
+echo "------------Multiplication-------------"
+num=10
+for i in {1..10}
+do
+echo "$num * $i = $((num*i))"
+done

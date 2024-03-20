@@ -1,0 +1,5 @@
+#!/bin/bash
+for i in *.conf
+do
+echo $i
+done
