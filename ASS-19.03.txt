@@ -8,3 +8,8 @@ for i in ./$a/*
 do
 echo $i
 done 
+if [ -f ./$a/*.$b ]
+then
+((count++))
+fi
+echo "$count"
