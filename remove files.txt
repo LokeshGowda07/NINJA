@@ -1,0 +1,5 @@
+#!/bin/bash
+for i in ./sample/*.conf
+do
+rm -rf $i
+done

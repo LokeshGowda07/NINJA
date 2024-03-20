@@ -1,0 +1,7 @@
+#!/bin/bash
+count=0
+for i in ./sample/*
+do
+((count++))
+done
+echo $count

@@ -1,0 +1,10 @@
+#!/bin/bash
+count=0
+echo "enter directory name"
+read a
+echo "enter file extension"
+read b
+for i in ./$a/*
+do
+echo $i
+done 
